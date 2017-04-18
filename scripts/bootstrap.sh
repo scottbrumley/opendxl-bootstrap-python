@@ -56,8 +56,8 @@ installOpenDXLCLient(){
 ### Install Open DXL Client
 echo "Installing Open DXL Client"
 cd /vagrant
-sudo git clone https://github.com/opendxl/opendxl-client-python.git
-cd /vagrant/opendxl-client-python
+https://github.com/opendxl/opendxl-bootstrap-python.git
+cd /vagrant/opendxl-bootstrap-python
 sudo python setup.py install
 }
 
@@ -95,7 +95,7 @@ installPython
 installGit
 installPip
 installPythonCommon
-#installOpenDXLCLient
+installOpenDXLCLient
 installDXLBootStrap
 checkSSL
 dxlDependencies
